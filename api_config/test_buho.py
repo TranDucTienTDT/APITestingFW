@@ -10,4 +10,5 @@ headers["Authorization"] = config.BEARER_TOKEN
 
 response = requests.get(url, headers=headers)
 
+print(response.status_code, response.json()['message'])
 

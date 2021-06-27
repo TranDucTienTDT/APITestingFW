@@ -1,7 +1,30 @@
-Feature: BUHO Menu Management API testing
+Feature: Test query SQL
 
-  @successful
-  Scenario: The menu is loaded
-    Given Login to the admin page
-    When the "get" request with uri "/api/dish/5/addons" is sent
-    Then response status should be 200
+  Scenario: Test query of sandbox
+    Given Connect to Sandbox Database
+    When The query is excuted
+      """
+      SELECT private
+      FROM jobhop_staging.cv
+      WHERE cv_id = '0dc68dc6-937e-4354-961a-5c104e9d9a8f';
+      """
+    Then The result will be matched with table:
+
+  Scenario: test scenario
+    Given Connect to Sandbox Database
+      And Setup Table:
+        | Username | Password |
+        | John     | 123456   |
+        | Jerry    | 654321   |
+    When The query is excuted
+      """
+      SELECT private
+      FROM jobhop_staging.cv
+      WHERE cv_id = '0dc68dc6-937e-4354-961a-5c104e9d9a8f';
+      """
+    Then The Given Data should match
+        | Username | Password |
+        | John     | 123456   |
+        | Jerry    | 654321   |
+
+

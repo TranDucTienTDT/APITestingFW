@@ -24,7 +24,7 @@ def login_to_the_admin_page(self):
     self.headers["Authorization"] = config.BEARER_TOKEN
 
 
-@when('the <method> request with uri <uri> is sent')
+@when('The <method> request with uri <uri> is sent')
 def the__request_with_uri_is_sent(self, method, uri):
     self.url = self.url + {uri}
     if method == "get":

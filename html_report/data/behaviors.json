@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "BUHO Menu Management API testing",
+    "children" : [ {
+      "name" : "The menu is loaded",
+      "uid" : "68cf775ab21b7212",
+      "parentUid" : "3705f63854c634e4357064f4e7bc64f1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1624356398024,
+        "stop" : 1624356398401,
+        "duration" : 377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3705f63854c634e4357064f4e7bc64f1"
+  }, {
+    "name" : "MMA flow for posting non-duplicated jobs API testing",
+    "children" : [ {
+      "name" : "Posting a duplicated job with JOB_LINK_ALREADY_EXISTS",
+      "uid" : "1d71a7046aafdb22",
+      "parentUid" : "4921db1d9e9da5c63f6e50da611651f5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1624356398402,
+        "stop" : 1624356398404,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4921db1d9e9da5c63f6e50da611651f5"
+  } ]
+}

@@ -1,0 +1,121 @@
+{
+  "uid" : "f0c10336b13ecfc6",
+  "name" : "The menu is loaded",
+  "fullName" : "BUHO Menu Management API testing: The menu is loaded",
+  "historyId" : "53339e7164d279c74577d45bda5a41c9",
+  "time" : {
+    "start" : 1624355918851,
+    "stop" : 1624355919557,
+    "duration" : 706
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError\n",
+  "statusTrace" : "  File \"/Users/tien/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/tien/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/api_steps.py\", line 54, in step_impl\n    assert context.response.status_code == int(status_code)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError\n",
+    "statusTrace" : "  File \"/Users/tien/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/tien/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/api_steps.py\", line 54, in step_impl\n    assert context.response.status_code == int(status_code)\n",
+    "steps" : [ {
+      "name" : "Given Login to the admin page",
+      "time" : {
+        "start" : 1624355918851,
+        "stop" : 1624355918853,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The \"get\" request with uri \"/api/dish/5/addons\" is sent",
+      "time" : {
+        "start" : 1624355918853,
+        "stop" : 1624355919550,
+        "duration" : 697
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The response status should be: 200",
+      "time" : {
+        "start" : 1624355919551,
+        "stop" : 1624355919555,
+        "duration" : 4
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"/Users/tien/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/tien/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/api_steps.py\", line 54, in step_impl\n    assert context.response.status_code == int(status_code)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And The message should be \"Success\"",
+      "time" : {
+        "start" : 1624355919557,
+        "stop" : 1624355919557,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "successful"
+  }, {
+    "name" : "feature",
+    "value" : "BUHO Menu Management API testing"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "successful" ]
+  },
+  "source" : "f0c10336b13ecfc6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+      "children" : [ {
+        "name" : "The menu is loaded",
+        "uid" : "68cf775ab21b7212",
+        "parentUid" : "e517517ead10d6e3162bd65cce899cb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624356398024,
+          "stop" : 1624356398401,
+          "duration" : 377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e517517ead10d6e3162bd65cce899cb6"
+    }, {
+      "name" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'The POST request with uri \"ai/api/v1/jobs/\" and payload bellow is sent.')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When The POST request with uri \"ai/api/v1/jobs/\" and payload bellow is sent.')\n\n",
+      "children" : [ {
+        "name" : "Posting a duplicated job with JOB_LINK_ALREADY_EXISTS",
+        "uid" : "1d71a7046aafdb22",
+        "parentUid" : "f652b47877d5968f69184ab7675208ad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624356398402,
+          "stop" : 1624356398404,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f652b47877d5968f69184ab7675208ad"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

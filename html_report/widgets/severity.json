@@ -1,0 +1,21 @@
+[ {
+  "uid" : "1d71a7046aafdb22",
+  "name" : "Posting a duplicated job with JOB_LINK_ALREADY_EXISTS",
+  "time" : {
+    "start" : 1624356398402,
+    "stop" : 1624356398404,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "68cf775ab21b7212",
+  "name" : "The menu is loaded",
+  "time" : {
+    "start" : 1624356398024,
+    "stop" : 1624356398401,
+    "duration" : 377
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

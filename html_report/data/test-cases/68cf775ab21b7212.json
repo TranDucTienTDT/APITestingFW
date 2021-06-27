@@ -1,0 +1,187 @@
+{
+  "uid" : "68cf775ab21b7212",
+  "name" : "The menu is loaded",
+  "fullName" : "BUHO Menu Management API testing: The menu is loaded",
+  "historyId" : "53339e7164d279c74577d45bda5a41c9",
+  "time" : {
+    "start" : 1624356398024,
+    "stop" : 1624356398401,
+    "duration" : 377
+  },
+  "status" : "broken",
+  "statusMessage" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+  "statusTrace" : "  File \"/Users/tien/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/tien/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/api_steps.py\", line 64, in step_impl\n    raise Exception(f\"The message you want to check is empty. It should be {context.response.json()['statusMessage']}\")\n  File \"/Users/tien/venv/lib/python3.9/site-packages/requests/models.py\", line 898, in json\n    return complexjson.loads(self.text, **kwargs)\n  File \"/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+    "statusTrace" : "  File \"/Users/tien/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/tien/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/api_steps.py\", line 64, in step_impl\n    raise Exception(f\"The message you want to check is empty. It should be {context.response.json()['statusMessage']}\")\n  File \"/Users/tien/venv/lib/python3.9/site-packages/requests/models.py\", line 898, in json\n    return complexjson.loads(self.text, **kwargs)\n  File \"/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\n",
+    "steps" : [ {
+      "name" : "Given Login to the admin page",
+      "time" : {
+        "start" : 1624356398024,
+        "stop" : 1624356398025,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The \"GET\" request with uri \"/api/dish/5/addon\" is sent",
+      "time" : {
+        "start" : 1624356398025,
+        "stop" : 1624356398398,
+        "duration" : 373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The url is:",
+      "time" : {
+        "start" : 1624356398398,
+        "stop" : 1624356398399,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The response status should be: 404",
+      "time" : {
+        "start" : 1624356398399,
+        "stop" : 1624356398399,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The message should be \"empty\"",
+      "time" : {
+        "start" : 1624356398399,
+        "stop" : 1624356398401,
+        "duration" : 2
+      },
+      "status" : "broken",
+      "statusMessage" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+      "statusTrace" : "  File \"/Users/tien/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/tien/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/api_steps.py\", line 64, in step_impl\n    raise Exception(f\"The message you want to check is empty. It should be {context.response.json()['statusMessage']}\")\n  File \"/Users/tien/venv/lib/python3.9/site-packages/requests/models.py\", line 898, in json\n    return complexjson.loads(self.text, **kwargs)\n  File \"/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "unsuccessful"
+  }, {
+    "name" : "feature",
+    "value" : "BUHO Menu Management API testing"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "75d6be44d32275a5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError\n",
+      "time" : {
+        "start" : 1624356397884,
+        "stop" : 1624356398023,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "404b111475fbf3c8",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+      "time" : {
+        "start" : 1624355919558,
+        "stop" : 1624355919919,
+        "duration" : 361
+      }
+    }, {
+      "uid" : "f0c10336b13ecfc6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError\n",
+      "time" : {
+        "start" : 1624355918851,
+        "stop" : 1624355919557,
+        "duration" : 706
+      }
+    }, {
+      "uid" : "8cfd22041a860182",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+      "time" : {
+        "start" : 1624352985355,
+        "stop" : 1624352985841,
+        "duration" : 486
+      }
+    }, {
+      "uid" : "8c3346b5095a13a3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError\n",
+      "time" : {
+        "start" : 1624352985214,
+        "stop" : 1624352985354,
+        "duration" : 140
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "unsuccessful" ]
+  },
+  "source" : "68cf775ab21b7212.json",
+  "parameterValues" : [ ]
+}

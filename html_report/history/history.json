@@ -1,0 +1,42 @@
+{
+  "53339e7164d279c74577d45bda5a41c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "68cf775ab21b7212",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+      "time" : {
+        "start" : 1624356398024,
+        "stop" : 1624356398401,
+        "duration" : 377
+      }
+    } ]
+  },
+  "e13850ef35d97bad7e0c3aaf523590b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d71a7046aafdb22",
+      "status" : "broken",
+      "statusDetails" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'The POST request with uri \"ai/api/v1/jobs/\" and payload bellow is sent.')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When The POST request with uri \"ai/api/v1/jobs/\" and payload bellow is sent.')\n\n",
+      "time" : {
+        "start" : 1624356398402,
+        "stop" : 1624356398404,
+        "duration" : 2
+      }
+    } ]
+  }
+}
